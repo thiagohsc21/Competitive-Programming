@@ -1,3 +1,3 @@
 # Competitive-Programming
  
-I use this repository to store and share my exercises already solved in the area of ​​competitive programming
+Resolutions made by me for competition problems. I'm using the repository for storage
