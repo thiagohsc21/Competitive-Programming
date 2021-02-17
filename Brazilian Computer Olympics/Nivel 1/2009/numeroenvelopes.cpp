@@ -2,11 +2,9 @@
 using namespace std;
 int b[10000] = {0};
 int main(){
-    int n,k; 
-    cin >> n >> k;
+    int n,k; cin >> n >> k;
     for(int i = 0 ; i < n ; i++){
-        int num; 
-        cin >> num;
+        int num; cin >> num;
         b[num]++;
     }
     int min = b[1];
