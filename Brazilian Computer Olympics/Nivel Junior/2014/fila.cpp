@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int removidos[1000005] = {0};
+int removidos[100005] = {0};
 
 int main(){
 
