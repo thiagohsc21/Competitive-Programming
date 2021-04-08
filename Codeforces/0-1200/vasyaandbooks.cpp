@@ -1,23 +1,27 @@
 #include <bits/stdc++.h>
 using namespace std;
-int s[200005];
+
+#define ll long long int
+#define pb push_back
+
 int main(){
-    int n;
-    cin >> n;
-    for(int i = 0 ; i < n ; i++) cin >> s[i];
-    int ind = 0, k = n;
-    while(n--){
-        int m, moves = 0; 
-        cin >> m;
-        for(int i = ind; i < k; i++){
-            moves++;
-            cout << i << ' ';
-            if(s[i] == m){
-                ind = i+1;
-                break;
-            }
-        }
-        cout << endl;
-        cout << "moves" << moves << endl;
+    int n; cin >> n;
+    stack <int> b;
+    for(int i = 0 ; i < n ; i++) {
+        int k; cin >> k;
+        b.push(k);
     }
+    // 1 2 3
+    // 2 1 3 
+    while(n--){
+        int x, ans = 0; cin >> x;
+        if(binary_search())
+            while(b.top() != x){
+                b.pop(); ans++;
+            }
+            if(b.top() == x){
+                
+            }
+    }
+    return 0;
 }
